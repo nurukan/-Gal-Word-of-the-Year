@@ -50,8 +50,8 @@ h1 {
     transform: translate(-50%,-50%);
 } */
 
-.ageBtn_sec{
-    margin-bottom: 40px;
+.main__container{
+    margin-top: 40px;
 }
 
 /* 共通 画像 */
