@@ -31,14 +31,14 @@ bgColor.addEventListener('click',()=>{
     document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
 });
 
-// 背景色にコメントを付ける     途中「ランダムで色が変わるよ！」と吹き出しをつけたい
-// クリックすると
-bgColor.addEventListener('click',()=> {
-    // クリックした場所からXYと＋10pxの場所に
-    bgColor
-    // 「ランダムで色が変わるよ！」とコメントをだす
-    // 3秒後に消える
-});
+// // 背景色にコメントを付ける     途中「ランダムで色が変わるよ！」と吹き出しをつけたい
+// // クリックすると
+// bgColor.addEventListener('click',()=> {
+//     // クリックした場所からXYと＋10pxの場所に
+//     bgColor
+//     // 「ランダムで色が変わるよ！」とコメントをだす
+//     // 3秒後に消える
+// });
 
 
 // 昭和、平成、令和のセクションを切り替えたい
