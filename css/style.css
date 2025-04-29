@@ -33,6 +33,9 @@ h1 {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.title {
+    display: block;
+}
 
 @media(max-width: 400px){
     h1 {
