@@ -4,27 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ヤングな言葉はわかるかな？あなたなら何て返答する？か考える遊び">
-    <title>ヤングなワードで今日もドキドキ</title>
+    <title>ヤングなワードに今日もドキドキ</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div id="container">
+    <button class="btn_bgColor">背景色を変える</button>
     <header>
         <div class="title_box">
-            <h1 class="title">ヤングなワードで今日もドキドキ</h1>
-            <p class="title_bg">ヤングなワードで今日もドキドキ</p>
-            <p class="title_white">ヤングなワードで今日もドキドキ</p>
+            <h1 class="title">ヤングなワードに今日もドキドキ</h1>
+            <!-- <p class="title_bg">ヤングなワードで今日もドキドキ</p>
+            <p class="title_white">ヤングなワードで今日もドキドキ</p> -->
         </div>
+        <section>
+            <button id="syouwa__Btn"><p>昭和ギャル</p></button>
+            <button id="heisei__Btn"><p>平成ギャル</p></button>
+            <button id="reiwa__Btn"><p>令和ギャル</p></button>
+        </section>
     </header>
     <main>
         <div id="background" class="color kirakira"></div>
-        <section class="img_box">
-            <div class="young_img"></div>
+        <section id="syouwa__sec" class="img_box-syouwa">
+            <div class="young_img-syouwa"></div>
             <div class="randomWord"></div>
             <p class="random_message">文字が変わるよ</p>
         </section>
-        <h2 class="question">はやりの言葉に何て返す？</h2>
-        <button id="btn" class="btn_text">クリック</button>
+
+        <section id="heisei__sec" class="img_box-heisei">
+            <div class="young_img-heisei"></div>
+            <div class="randomWord"></div>
+            <p class="random_message">文字が変わるよ</p>
+        </section>
+
+        <section id="reiwa__sec" class="img_box-reiwa">
+            <div class="young_img-reiwa"></div>
+            <div class="randomWord"></div>
+            <p class="random_message">文字が変わるよ</p>
+        </section>
+
+
+
+
+
+
+        <section>
+            <h2 class="question">はやりの言葉に何て返す？</h2>
+            <button id="btn" class="btn_text">クリック</button>
+        </section>
     </main>
     <footer>
         <p class="year">2025年版</p>    
