@@ -13,6 +13,10 @@ img {
     width: 100%;
 }
 
+/* .container {
+    transition: 0.3s;
+} */
+
 .title_box {
     width: 90%;
     height: 40px;
@@ -29,7 +33,7 @@ h1 {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.title_bg {
+/* .title_bg {
     color:  palevioletred;
     font-size: 3.2rem;
     position: absolute;
@@ -44,20 +48,12 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
+} */
 
-
-.young_img {
-    width: 500px;
-    height: 500px;
-    background-image: url(../images/school_girls_2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin:0 auto;
-}
-
-.img_box {
+/* 共通 画像 */
+.img_box-syouwa,
+.img_box-heisei,
+.img_box-reiwa {
     position: relative;
     width: 500px;
     height: 500px; /* ← 親要素の高さを明示しないとb、その結果、position: absolute の .randomWord が基準を見失って、bodyからの位置になってしまう、という流れ。 */
@@ -65,6 +61,52 @@ h1 {
     margin: 0 auto;
 }
 
+/* syouwa    section */
+#syouwa__sec {
+    display: none;
+}
+.young_img-syouwa {
+    max-width: 500px;
+    height: 500px;
+    background-image: url(../images/syouwa_girls_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0 auto;
+}
+
+/* heisei    section */
+#heisei__sec {
+    display: none;
+}
+.young_img-heisei {
+    max-width: 500px;
+    height: 500px;
+    background-image: url(../images/heisei_girls_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0 auto;
+}
+
+/* reiwa    section */
+#reiwa__sec {
+    display: block;
+}
+.young_img-reiwa {
+    max-width: 500px;
+    height: 500px;
+    background-image: url(../images/reiwa_girls_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0 auto;
+}
+
+
+
+
+/* hayari   word */
 .randomWord {
     background-color: rgba(231, 89, 231, 0.6);
     width: 80%;
