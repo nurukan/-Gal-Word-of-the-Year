@@ -33,6 +33,16 @@ h1 {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+@media(max-width: 400px){
+    h1 {
+        color:  palevioletred;
+        text-shadow: 1px 0 0 #222,0 1px #222,-1px 0 0 #222,0 -1px 0 #222;
+        font-size: 1.8rem;
+    }
+}
+
+
 /* .title_bg {
     color:  palevioletred;
     font-size: 3.2rem;
