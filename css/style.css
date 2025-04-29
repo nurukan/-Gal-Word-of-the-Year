@@ -59,6 +59,7 @@ h1 {
     height: 500px; /* ← 親要素の高さを明示しないとb、その結果、position: absolute の .randomWord が基準を見失って、bodyからの位置になってしまう、という流れ。 */
     background-color: #eee;
     margin: 40px auto 0;
+    padding-top:40px;
 }
 
 /* syouwa    section */
